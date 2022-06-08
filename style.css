@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid gray;
+}
+
+.navbar a {
+  color: gray;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+}
+
+.link ul li {
+  list-style: none;
+}
+
+.link ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.43;
+  margin: 0 42px 0 0;
+  padding: 0;
+}
+
+.link a:hover {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+  /* padding-bottom: 23px; */
+}
+
+.active {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+  /* padding-bottom: 23px; */
+}
